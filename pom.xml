@@ -32,10 +32,23 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.h2database</groupId>-->
+<!--&lt;!&ndash;			<artifactId>h2</artifactId>&ndash;&gt;-->
+<!--			<scope>runtime</scope>-->
+<!--		</dependency>-->
+
+
+<!--		&lt;!&ndash; Use MySQL Connector-J &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>mysql</groupId>-->
+<!--			<artifactId>mysql-connector-java</artifactId>-->
+<!--		</dependency>-->
+
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -61,6 +74,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+
 				</configuration>
 			</plugin>
 		</plugins>

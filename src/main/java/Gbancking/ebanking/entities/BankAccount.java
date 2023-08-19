@@ -17,7 +17,7 @@ import java.util.List;
 @NoArgsConstructor
 @Table
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "Account Type",length = 3,discriminatorType =DiscriminatorType.STRING)
+@DiscriminatorColumn(name = "type",length = 10,discriminatorType =DiscriminatorType.STRING)
 public class BankAccount {
     @Id
     @Column(length = 70)
